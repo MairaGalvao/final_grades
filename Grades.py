@@ -83,22 +83,5 @@ group3.to_excel(writer)
 # writer.save()
 
 
-# todo show all the groups in a bar or histogram chart with matplotlib and extract functions (refactor)
-
-# x = np.arange(3)
-# y1 = group1['final grade'][:3]
-# y2 = group2['final grade'][:3]
-# y3 = group3['final grade'][:3]
-
-# width = 0.2
-
-# plt.bar(x-0.2, y1, width, color='cyan')
-# plt.bar(x, y2, width, color='orange')
-# plt.bar(x+0.4, y3, width, color='pink')
-
-
-# plt.xlabel("Type of exercise")
-# plt.ylabel("Grades")
-# plt.legend(["Group 1", "Group2", "Group3"])
-
-# plt.show()
+# todo 1 extract functions (refactor);
+# todo 2 show all the groups in a bar or histogram chart with matplotlib;
